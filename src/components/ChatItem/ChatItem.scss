@@ -1,0 +1,65 @@
+@import "../../globalStyles/variables.scss";
+
+.itemContainer {
+  width: 100%;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  p {
+    margin: 0;
+  }
+  .imageSectoin {
+    position: relative;
+    margin-right: 8px;
+    .chatImage {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+    }
+    .userStatus {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background-color: $system-success;
+      position: absolute;
+      border: 1px solid $text-white;
+      bottom: 3px;
+      left: 28px;
+    }
+  }
+  .chatInfo {
+    display: flex;
+    flex-direction: column;
+    .userName {
+      color: $black;
+      font-size: 14px;
+      font-weight: 700;
+    }
+    .lasMessage {
+      font-size: 14px;
+      color: $gray-60;
+    }
+  }
+  .chatSystemInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    .lastMessageTime {
+      color: $text-tertiary;
+      font-size: 14px;
+      font-weight: 300;
+    }
+    .messageCount {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: $system-info;
+      color: $text-white;
+      padding: 2px 6px;
+      border-radius: 20px;
+      font-size: 12px;
+      margin-top: 6px;
+    }
+  }
+}

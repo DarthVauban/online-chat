@@ -1,0 +1,15 @@
+@import "../../../globalStyles/variables.scss";
+.settingButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  padding: 16px 8px;
+  cursor: pointer;
+  .buttonIcon {
+    path {
+      fill: $icon-action;
+    }
+  }
+}

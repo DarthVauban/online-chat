@@ -1,0 +1,38 @@
+@import "../../globalStyles/variables.scss";
+
+.inputMessage {
+  margin: 0 auto;
+  .userMessage {
+    resize: none;
+    width: 520px;
+    height: 48px;
+    padding: 12px 0px 0px 8px;
+    line-height: 35px;
+    border-radius: 10px 10px 0px 0px;
+    border: 1px solid $text-tertiary;
+    outline: none;
+  }
+  .messageActions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 48px;
+    background-color: $gray-5;
+    border-radius: 0px 0px 10px 10px;
+    padding: 0px 12px;
+    border: 1px solid $text-tertiary;
+    margin-top: -5px;
+    .addToMessageButton {
+      cursor: pointer;
+    }
+    .sendMessage {
+      font-size: 14px;
+      font-weight: 600;
+      padding: 6px 12px;
+      border-radius: 8px;
+      border: 1px solid $gray-20;
+      color: $gray-20;
+      cursor: pointer;
+    }
+  }
+}

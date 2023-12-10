@@ -1,0 +1,45 @@
+@import "../../globalStyles/variables.scss";
+
+.responceContainer {
+  display: flex;
+  .responceUserPhotoContainer {
+    margin-right: 24px;
+    display: flex;
+    align-items: end;
+    position: relative;
+    .responceUserPhoto {
+      width: 40px;
+      border-radius: 50%;
+    }
+    .userStatus {
+      width: 8px;
+      height: 8px;
+      background-color: $system-success;
+      border-radius: 50%;
+      border: 2px solid #fff;
+      position: absolute;
+      left: 31px;
+    }
+  }
+  .responceUserName {
+    font-size: 16px;
+    font-weight: 600;
+    color: $system-success;
+    margin: 0;
+  }
+  .responceText {
+    display: block;
+    margin-right: auto;
+    max-width: 480px;
+    background-color: $disabled-tertiary;
+    padding: 16px;
+    border-radius: 16px 16px 16px 0px;
+    margin-bottom: 0;
+    margin-top: 2px;
+  }
+  .responceMessageTime {
+    margin: 0;
+    font-size: 12px;
+    color: $text-secondary;
+  }
+}

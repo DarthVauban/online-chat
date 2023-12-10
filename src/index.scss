@@ -1,0 +1,8 @@
+@import "./globalStyles/variables.scss";
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&family=Rubik:wght@300&display=swap");
+* {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  ::-webkit-scrollbar {
+    width: 0; /* ширина всей полосы прокрутки */
+  }
+}
